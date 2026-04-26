@@ -1,0 +1,26 @@
+.barchart-page {
+  background-color: white;
+  min-height: 100vh;   /* full screen height */
+  padding-top: 30px;
+}
+
+.barchart-heading {
+  text-align: center;
+  color: #219096;
+  font-weight: bold;
+}
+.chart-container {
+  display: flex;
+  justify-content: center;   /* horizontal center */
+  align-items: center; 
+  margin-top: 30px;      /* vertical center (optional) */
+}
+
+/* outer box */
+.chart-container > * {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #219096;   /* 👈 border */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}

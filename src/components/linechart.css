@@ -1,0 +1,25 @@
+.linechart-page {
+  background-color: white;
+  min-height: 100vh;   /* full screen height */
+  padding-top: 30px;
+}
+
+.linechart-heading {
+  text-align: center;
+  color: #219096;
+  font-weight: bold;
+}
+.chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* box */
+.chart-container > * {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #219096;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
